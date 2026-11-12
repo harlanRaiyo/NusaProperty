@@ -1,0 +1,134 @@
+:root {
+  --primary: #194668;
+  --text-deskripsi: #647b8c;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter' sans-serif;
+  background-color: white;
+}
+
+.container-site{
+  width: 100%;
+}
+
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background-image: 
+   linear-gradient(90deg, 
+    rgba(5, 25, 40, 0.94) 0%,
+    rgba(5, 25, 40, 0.78) 35%,
+    rgba(5, 25, 40,  0.38) 100%),
+    url('asset/hero-villa.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-link,.navbar-brand{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 32px;
+}
+
+.navbar-brand{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero-content {
+  color: white;
+  /* background-color: brown; */
+  max-width: 1300px;
+  margin: auto;
+  height: 100vh;
+  line-height: 1.1;
+}
+
+.hero-title {
+  font-size: 50px;
+  height: 800;
+  margin-bottom: 20px;
+}
+
+.hero-title span{
+  color: #efbd87;
+}
+
+.hero-subtitle{
+  max-width: 400px;
+  color: bisque;
+  font-size: 18px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+.features{
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+  background-color: rgb(247, 247, 247);
+  padding-top: 70px;
+}
+
+.img-features{
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  flex-direction: 0.8;
+}
+
+.title-features{
+  text-align: left;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.parag-features{
+  color: var(--text-deskripsi);
+  text-align: left;
+  max-width: 500px;
+  margin-top: 15px;
+}
+
+.list-features{
+  text-align: left;
+}
+
+.icon-features{
+  font-size: 16px;
+}
+
+.button-features{
+  background-color: var(--primary);
+  color: white;
+  width: 175px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 25px;
+  box-shadow: rgba(5, 25, 40, 0.94);
+  padding: 7px;  
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+/* .bf-isi a{
+  font-size: 14px;
+  text-decoration: none;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
